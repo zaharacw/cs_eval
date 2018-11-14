@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>42</x>
+      <y>588</y>
+      <w>108</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>User Goes to web address</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>246</x>
+      <y>582</y>
+      <w>78</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>User logs into SSO</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>132</x>
+      <y>564</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Goes to SSO</panel_attributes>
+    <additional_attributes>114;30;18;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>300</x>
+      <y>516</y>
+      <w>186</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+If Admin</panel_attributes>
+    <additional_attributes>174;18;36;18;36;72;24;72</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>306</x>
+      <y>564</y>
+      <w>180</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+If Student</panel_attributes>
+    <additional_attributes>168;30;18;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>294</x>
+      <y>582</y>
+      <w>192</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+If Instructor</panel_attributes>
+    <additional_attributes>180;132;42;132;42;18;30;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>474</x>
+      <y>510</y>
+      <w>102</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Sees Admin Homepage
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>672</x>
+      <y>192</y>
+      <w>126</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Adds or Removes Other Admins
+(But Not Themselves)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>510</x>
+      <y>186</y>
+      <w>174</w>
+      <h>342</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+Goes To Admin Management Page</panel_attributes>
+    <additional_attributes>162;18;84;18;84;330;66;330</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>762</x>
+      <y>234</y>
+      <w>126</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Adds/Edits/Removes Questions</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>558</x>
+      <y>222</y>
+      <w>240</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Goes to Required Questions Page</panel_attributes>
+    <additional_attributes>204;18;168;18;168;300;18;300</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>558</x>
+      <y>282</y>
+      <w>528</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Goes to Course Questions Page</panel_attributes>
+    <additional_attributes>516;18;456;18;456;252;18;252</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>558</x>
+      <y>252</y>
+      <w>384</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Goes to Instructor Questions Page</panel_attributes>
+    <additional_attributes>372;18;312;18;312;276;18;276</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>558</x>
+      <y>312</y>
+      <w>668</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Goes to Information Upload Page</panel_attributes>
+    <additional_attributes>618;18;594;18;594;228;18;228</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>930</x>
+      <y>264</y>
+      <w>162</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Adds/Edits/Approves/Removes Questions</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1074</x>
+      <y>294</y>
+      <w>126</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Adds/Edits/Removes Questions</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1176</x>
+      <y>324</y>
+      <w>168</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Retrieve Course Information for Evaluation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>558</x>
+      <y>348</y>
+      <w>768</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Goes to Reports Page</panel_attributes>
+    <additional_attributes>738;18;714;18;714;198;18;198</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1296</x>
+      <y>354</y>
+      <w>138</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Gets Metrics on Individual Courses</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>594</x>
+      <y>114</y>
+      <w>120</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>At any point from 
+here, an Admin can
+navigate to any page 
+from any other page
+because of the navigation bar
+on every page.
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>30</x>
+      <y>456</y>
+      <w>152</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+How a user gets to these abilities</panel_attributes>
+    <additional_attributes>120;30;36;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>54</x>
+      <y>450</y>
+      <w>108</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>What a user does or can do</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>42</x>
+      <y>426</y>
+      <w>132</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Legend:</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1296</x>
+      <y>384</y>
+      <w>150</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Removes Evaluation Data on Courses</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1254</x>
+      <y>372</y>
+      <w>54</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>42;18;18;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>492</x>
+      <y>396</y>
+      <w>60</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>/Logs Out/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>426</x>
+      <y>396</y>
+      <w>188</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Clicks Log Out Button
+(This can happen at any point beyond here)
+fg=red</panel_attributes>
+    <additional_attributes>96;18;96;114</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>474</x>
+      <y>588</y>
+      <w>102</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Sees Student Homepage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>438</x>
+      <y>396</y>
+      <w>102</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+fg=red</panel_attributes>
+    <additional_attributes>66;18;66;42;18;42;18;174;90;174;90;192</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>726</x>
+      <y>588</y>
+      <w>126</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Sees Course Evaluation Page</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>558</x>
+      <y>564</y>
+      <w>180</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Selects a Course To Evaluate</panel_attributes>
+    <additional_attributes>168;30;18;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1008</x>
+      <y>558</y>
+      <w>156</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Continues Partially Complete Evaluation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1158</x>
+      <y>594</y>
+      <w>84</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Fills Out Evaluation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>738</x>
+      <y>546</y>
+      <w>282</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+If the user selects a course evaluation that they've already started</panel_attributes>
+    <additional_attributes>270;18;138;18;138;48;114;48</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>834</x>
+      <y>570</y>
+      <w>336</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+If the user selects a course evalatuion that they've haven't started</panel_attributes>
+    <additional_attributes>324;30;18;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1344</x>
+      <y>594</y>
+      <w>90</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Completes Evaluation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1224</x>
+      <y>570</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Clicks Submit button</panel_attributes>
+    <additional_attributes>120;30;18;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1146</x>
+      <y>534</y>
+      <w>294</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Clicks Submit Button</panel_attributes>
+    <additional_attributes>246;60;246;30;18;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>534</x>
+      <y>588</y>
+      <w>678</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Clicks Save Button to Finish Later</panel_attributes>
+    <additional_attributes>18;18;18;54;666;54;666;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>510</x>
+      <y>588</y>
+      <w>894</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Goes to Student Homepage</panel_attributes>
+    <additional_attributes>18;18;18;84;882;84;882;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>474</x>
+      <y>708</y>
+      <w>108</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Sees Intstructor Homepage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>852</x>
+      <y>708</y>
+      <w>132</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>Adds/Edits/Removes Questions</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>564</x>
+      <y>684</y>
+      <w>300</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Selects a course and goes to the questions management page</panel_attributes>
+    <additional_attributes>288;30;18;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>510</x>
+      <y>396</y>
+      <w>90</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+fg=red</panel_attributes>
+    <additional_attributes>30;18;30;42;78;42;78;294;18;294;18;312</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>510</x>
+      <y>708</y>
+      <w>420</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Navigates back to Homepage</panel_attributes>
+    <additional_attributes>18;18;18;48;408;48;408;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>12</x>
+      <y>90</y>
+      <w>1452</w>
+      <h>690</h>
+    </coordinates>
+    <panel_attributes>Use Case Chart
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

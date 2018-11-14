@@ -1,0 +1,5 @@
+{
+    "require": {
+        "Celc/ciunit": "dev-master"
+    }
+}

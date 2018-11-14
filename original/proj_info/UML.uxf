@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>1</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>514</x>
+      <y>376</y>
+      <w>35</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>MY_Controller
+--
++ nonHomeControllers : keyArray (indexArray(String))
++ homeControllers : keyArray (String)
++ accountView : variable (String)
++ user_groups : keyArray (String)
+--
++  __construct() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>543</x>
+      <y>331</y>
+      <w>28</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>CI_Controller(From CodeIgnitor Framework)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>523</x>
+      <y>402</y>
+      <w>17</w>
+      <h>11</h>
+    </coordinates>
+    <panel_attributes>admins
+--
++ index() (initializer) : void
++ getAdmin() : void
++ removeAdmin() : void
++ modifyAdmin() : void
++ addAdmin() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>528</x>
+      <y>385</y>
+      <w>4</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;17</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>543</x>
+      <y>402</y>
+      <w>29</w>
+      <h>11</h>
+    </coordinates>
+    <panel_attributes>course_questions
+--
++ __construct() : void
++ index() (initializer) : void
++ AddQuestion() : void
++ ModifyQuestion() : void
++ RemoveQuestion() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>554</x>
+      <y>391</y>
+      <w>4</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;11</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>531</x>
+      <y>391</y>
+      <w>27</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>26;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>531</x>
+      <y>385</y>
+      <w>4</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;9</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>502</x>
+      <y>402</y>
+      <w>17</w>
+      <h>6</h>
+    </coordinates>
+    <panel_attributes>admin_home
+--
++ __construct() : void
++ index() (initializer) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>507</x>
+      <y>391</y>
+      <w>4</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;11</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>507</x>
+      <y>391</y>
+      <w>22</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>21;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>525</x>
+      <y>385</y>
+      <w>4</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;9</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>475</x>
+      <y>402</y>
+      <w>25</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>admin_instructor_questions
+--
++ __construct() : void
++ index() (initializer) : void
++ ModifyQuestion() : void
++ RemoveQuestion() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>484</x>
+      <y>390</y>
+      <w>4</w>
+      <h>13</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>484</x>
+      <y>390</y>
+      <w>42</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>41;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>522</x>
+      <y>385</y>
+      <w>4</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;8</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>574</x>
+      <y>402</y>
+      <w>86</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>reports
+--
++ __construct() : void
++ index() (initializer) : void
++ getCourse() : void
++ allCourses() : void
++ queryInstructor() : void
++ querySubject() : void
++ queryYear() : void
++ queryQuarter() : void
++ genReport() : void
++ cleanUp() : void
++ zippedReports() : void
++ report(cid, file_type) : void
++ generateArchive(c_id,data,num_required_questions,num_optional_questions,num_abet_questions,num_department_questions) : void
++ NumAnswers(c_id,q_id,answer) : ret - ???</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>614</x>
+      <y>390</y>
+      <w>4</w>
+      <h>13</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>534</x>
+      <y>390</y>
+      <w>84</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>83;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>534</x>
+      <y>385</y>
+      <w>4</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;8</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>560</x>
+      <y>345</y>
+      <w>61</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>auth
+--
++ nonHomeControllers : keyArray(indexArray(String))
++ homeControllers : keyArray (String)
++ account_view : variable (String)
++ user_groups : indexArray (String)
++ account_priority : keyArray (int)
++ data_keys : indexArray (String)
+--
++ __construct() : void
++ logout() : void
++ redirect() : void
++ repackageUserData(data - keyArray(String)) : repackaged_data - keyArray(keyArray(String))
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>454</x>
+      <y>402</y>
+      <w>18</w>
+      <h>5</h>
+    </coordinates>
+    <panel_attributes>default_controller
+--
++ index() (initializer) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>460</x>
+      <y>389</y>
+      <w>4</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;13</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>460</x>
+      <y>389</y>
+      <w>63</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>62;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>519</x>
+      <y>385</y>
+      <w>4</w>
+      <h>8</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;7</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>664</x>
+      <y>402</y>
+      <w>20</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>evaluations
+--
++ __construct() : void
++ index(c_id,userType) : void
++ loadSaved( data : ??? ) : void
++ postback() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>671</x>
+      <y>389</y>
+      <w>4</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;13</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>537</x>
+      <y>389</y>
+      <w>138</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>137;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>537</x>
+      <y>385</y>
+      <w>4</w>
+      <h>8</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;7</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>528</x>
+      <y>341</y>
+      <w>4</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;35</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>528</x>
+      <y>341</y>
+      <w>18</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;17;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>542</x>
+      <y>331</y>
+      <w>4</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;13</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>554</x>
+      <y>339</y>
+      <w>37</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;36;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>554</x>
+      <y>331</y>
+      <w>4</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;11</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>587</x>
+      <y>339</y>
+      <w>4</w>
+      <h>7</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;6</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>415</x>
+      <y>402</y>
+      <w>36</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>upload
+--
++ data_keys : indexArray(String)
+--
++ index() (initializer) : void
++ retrieval_postback() : void
++ submission_postback() : void
++ checkPostback() : void
++ uncheckPostback() : void
++ saveCheckBoxAnswers(key - String, value - Anything)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>388</y>
+      <w>4</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;14</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>388</y>
+      <w>90</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;89;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>516</x>
+      <y>385</y>
+      <w>4</w>
+      <h>7</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;6</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>688</x>
+      <y>402</y>
+      <w>17</w>
+      <h>6</h>
+    </coordinates>
+    <panel_attributes>instructor_home
+--
++ __construct() : void
++ index() (initializer) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>694</x>
+      <y>388</y>
+      <w>4</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;14</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>388</y>
+      <w>158</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>157;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>385</y>
+      <w>4</w>
+      <h>7</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;6</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>374</x>
+      <y>402</y>
+      <w>38</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>instructor_questions
+--
++ __construct() : void
++ index(c_id, subject, number, section, quarter, year) : void
++ addQuestion() : void
++ modifyQuestion() : void
++ removeQuestion() : void
++ addToEvaluation() : void
++ removeFromEvaluation() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>390</x>
+      <y>387</y>
+      <w>4</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>390</x>
+      <y>387</y>
+      <w>127</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;126;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>513</x>
+      <y>385</y>
+      <w>4</w>
+      <h>6</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;5</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>625</x>
+      <y>345</y>
+      <w>18</w>
+      <h>5</h>
+    </coordinates>
+    <panel_attributes>invalid_user
+--
++ index() (initializer) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>566</x>
+      <y>331</y>
+      <w>4</w>
+      <h>11</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;10</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>566</x>
+      <y>338</y>
+      <w>69</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;68;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>631</x>
+      <y>338</y>
+      <w>4</w>
+      <h>8</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;7</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>708</x>
+      <y>402</y>
+      <w>18</w>
+      <h>11</h>
+    </coordinates>
+    <panel_attributes>questions
+--
++ __construct() : void
++ index() (initializer) : void
++ AddQuestion() : void
++ ModifyQuestion() : void
++ RemoveQuestion() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>543</x>
+      <y>385</y>
+      <w>4</w>
+      <h>6</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;5</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>543</x>
+      <y>387</y>
+      <w>175</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>174;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>714</x>
+      <y>387</y>
+      <w>4</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>353</x>
+      <y>402</y>
+      <w>17</w>
+      <h>6</h>
+    </coordinates>
+    <panel_attributes>sample_evaluations
+--
++ __construct() : void
++ index() (initializer) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>359</x>
+      <y>384</y>
+      <w>156</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>155;3;3;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>359</x>
+      <y>384</y>
+      <w>4</w>
+      <h>19</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>729</x>
+      <y>402</y>
+      <w>17</w>
+      <h>6</h>
+    </coordinates>
+    <panel_attributes>student_home
+--
++ __construct() : void
++ index() (initializer) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>546</x>
+      <y>384</y>
+      <w>193</w>
+      <h>4</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;192;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>735</x>
+      <y>384</y>
+      <w>4</w>
+      <h>19</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>3;3;3;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>766</x>
+      <y>347</y>
+      <w>27</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>course_model
+--
++ getCourses() : nonvoid
++ getSubjectAndNumber() : array
++ getCourseInfo(c_id) : nonvoid
++ getCourseNumber(q_id) : nonvoid
++ getCourseByData(data) : nonvoid
++ getCoursesByData(data) : nonvoid
++ getAllCourses() : nonvoid
++ allCourses() : nonvoid
++ getCoursesByInst(data) : nonvoid
++ getDistinctInstructor() : nonvoid
++ getDistinctNumber() : nonvoid
++ getDistinctSubject() : nonvoid
++ getDistinctYear() : nonvoid
++ getDistinctTerm() : nonvoid
++ addCourses(courses) : void
++ addCourse(course) : void
++ getEvalStart(cid) : nonvoid
++ getEvalEnd(cid) : nonvoid
++ isAvaliableForEvaluation(cid) : boolean
++ isEvalPeriod() : boolean
++ getUniqueDates() : nonvoid
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>777</x>
+      <y>328</y>
+      <w>125</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>124;3;124;8;3;8;3;19</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>811</x>
+      <y>328</y>
+      <w>96</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>95;3;95;10;3;10;3;19</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>871</x>
+      <y>328</y>
+      <w>41</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40;3;40;12;3;12;3;19</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>913</x>
+      <y>328</y>
+      <w>29</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;12;28;12;28;19</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>918</x>
+      <y>328</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;9;69;9;69;19</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>924</x>
+      <y>328</y>
+      <w>98</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>3;3;3;7;97;7;97;19</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>797</x>
+      <y>347</y>
+      <w>36</w>
+      <h>13</h>
+    </coordinates>
+    <panel_attributes>evaluation_model
+--
++ __construct() : void
++ addEvaluation(results,num_questions,c_id,s_id) : void
++ isSubmitted(s_id,c_id) : boolean
++ isSaved(s_id,c_id) : boolean
++ getSavedAnswer(q_id, s_id, c_id) : nonvoid
++ getComment(s_id,c_id) : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>837</x>
+      <y>347</y>
+      <w>74</w>
+      <h>53</h>
+    </coordinates>
+    <panel_attributes>infoUpload_model
+--
++ instructor_count : String
++ upload_course_count : String
++ upload_course_key : String
++ course : String
++ quarter : String
++ year : String
++ subject : String
++ number : String
++ section : String
++ title : String
++ start_date : String
++ end_date : String
++ eval_start_date : String
++ eval_end_date : String
++ instructor : String
++ name : String
++ username : String
+--
++ __construct() : void
++ GetCoursesInstructorsIntoSession() : void
++ NormalizeCourses(&amp;courses) : void
++ bubble_sort_compare(&amp;courses) : void
++ course_compare_ascend(array_a, array_b) : int
++ UpdateCoursesInstructors(course_list) : void
++ RemoveCoursesInstructorsFromSession() : void
++ RetrieveEntityInfo($entity, expandProperty, fieldsArray, expandFieldsArray, expandFilter, expandFilterValue) : array
++ ParseODataValues(entities, &amp;courses, &amp;instructors) : void
++ SetQuarterSubjectInfo(currentQuarter, currentYear, courses) : void
++ GetQuarterSubjectInfo() : keyArray
++ GetFormattedQuarterData() : keyArray
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>900</x>
+      <y>328</y>
+      <w>28</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>CI_Model(From CodeIgnitor Framework)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>915</x>
+      <y>347</y>
+      <w>52</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>questions_model
+--
++ __construct() : void
++ getInstructorQuestions() : array
++ getSubjectAndCourse(qid) : array
++ getRequiredQuestions() : nonvoid
++ isARequiredQuestion(description) : boolean
++ getCourseQuestions(c_id) : void
++ getAdminOptionalQuestions(subject,number) : nonvoid
++ getCourseSpecificQuestions(subject,number) : nonvoid
++ getAdminQuestions(subject,number) : nonvoid
++ getAdminQuestionsAll() : array
++ getQuestionsByData(data) : nonvoid
++ getNumQuestions(c_id) : int
++ deleteQuestion(q_id) : int
++ addQuestion(description, type, calculated, creator_type) : nonvoid
++ addCourseSpecific(q_id,subject,course_number) : void
++ deleteCourseSpecific(q_id) : void
++ getRequiredQuestions() : nonvoid
++ getOptionalQuestions() : nonvoid
++ getABETQuestions() : nonvoid
++ getDepartmentalQuestions() : nonvoid
++ checkDup(d) : boolean
++ getAllSubjectsAndCourses() : nonvoid
++ checkDupForAdminQuestion(description) : boolean
++ checkDupOnMod(qid, d) : boolean
++ checkDupOnModForSubject(qid, description,subject,course_number) : boolean
++ checkDuplicateForSubject(description,subject,course_number) : boolean
++ isYourQuestion(q_id,creator_type) : boolean
++ addToEvaluation(c_id,q_id) : void
++ removeFromEvaluation(c_id,q_id) : void
++ removeFromEvaluationByAdmin(q_id) : void
++ deleteFromCourseSpecific(q_id) : void
++ deleteFromCourseQuestion(q_id) : void
++ getCreator(q_id) : nonvoid
++ isInCourseQuestionTable(qid, newQid) : boolean
++ isInCourseSpecificQuestionTable(qid, newQid) : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>971</x>
+      <y>347</y>
+      <w>31</w>
+      <h>22</h>
+    </coordinates>
+    <panel_attributes>reports_model
+--
++ __construct() : void
++ getAverageByType(c_id,type) : nonvoid
++ getAllAverage(c_id) : nonvoid
++ getQuestions(c_id,type) : nonvoid
++ getNumQuestionsByType(c_id,type) : nonvoid
++ getNumLastQuestions(c_id) : nonvoid
++ getAverage(c_id,q_id) : nonvoid
++ getNumAnswers(c_id,q_id,answer) : nonvoid
++ getLastAverage(c_id) : nonvoid
++ getComments(c_id) : nonvoid
++ clean_up(cid) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1006</x>
+      <y>347</y>
+      <w>30</w>
+      <h>19</h>
+    </coordinates>
+    <panel_attributes>user_model
+--
++ __construct() : void
++ getAdmin() : nonvoid
++ deleteInstructors() : void
++ isInGroup(username,group) : boolean
++ checkDup(name, userName) : boolean
++ getUser(username = NULL) : String
++ deleteUser(name) : void
++ addUser(name,username,email,group) : void
++ updateUser(data) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1057</x>
+      <y>328</y>
+      <w>10</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>AddOrRemove</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1070</x>
+      <y>328</y>
+      <w>26</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>admin_course_questions_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1099</x>
+      <y>328</y>
+      <w>13</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>admin_home_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1115</x>
+      <y>328</y>
+      <w>22</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>admin_instructor_questions_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1140</x>
+      <y>328</y>
+      <w>15</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>admin_required_questions_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1158</x>
+      <y>328</y>
+      <w>14</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>admin_reports_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1175</x>
+      <y>328</y>
+      <w>11</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>evaluation_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1189</x>
+      <y>328</y>
+      <w>12</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>infoUpload_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1204</x>
+      <y>328</y>
+      <w>15</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>instructor_home_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1222</x>
+      <y>328</y>
+      <w>17</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>instructor_questions_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1242</x>
+      <y>328</y>
+      <w>12</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>invalid_user_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1257</x>
+      <y>328</y>
+      <w>12</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>sample_eval_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1272</x>
+      <y>328</y>
+      <w>15</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>saved_evaluation_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1290</x>
+      <y>328</y>
+      <w>13</w>
+      <h>3</h>
+    </coordinates>
+    <panel_attributes>student_home_view</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>526</x>
+      <y>363</y>
+      <w>496</w>
+      <h>82</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;50;3;80;495;80;495;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>531</x>
+      <y>383</y>
+      <w>249</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+accesses&gt;</panel_attributes>
+    <additional_attributes>3;30;3;58;161;58;248;58;248;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>242</x>
+      <y>385</y>
+      <w>44</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>CAS
+--
++ CI : ???
++ cas_enable :  booleam
++ cas_host : String
++ cas_context : String
++ cas_port : String
++ cas_path : String
+--
++ __construct( config : array ) : void
++ initialize( config : array ) : void
++ force_authenticate() : void
++ authenticate() : void
++ determineWebPageUserType( controller : CI_controller? ) : nonvoid
++ logout() : void
++ get_user() : nonvoid
++ get_attributes() : nonvoid
++ has_attribute( key : ??? ) : nonvoid
+- get_current_url() : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>290</x>
+      <y>385</y>
+      <w>24</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>User
+--
++ CI : ???
+--
++ __construct( config : array ) : void
++ initialize( config : array ) : void
++ getUserInfo() : array
++ isAdmin() : nonvoid
++ isInstructor() : nonvoid
++ isStudent() : nonvoid
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>260</x>
+      <y>410</y>
+      <w>266</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+&lt;accesses</panel_attributes>
+    <additional_attributes>265;3;265;31;3;30;3;5</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>535</x>
+      <y>328</y>
+      <w>528</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;85;3;108;527;108;527;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>563</x>
+      <y>383</y>
+      <w>214</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;30;3;64;213;64;213;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>554</x>
+      <y>407</y>
+      <w>388</w>
+      <h>46</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;6;3;44;387;44;387;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>545</x>
+      <y>328</y>
+      <w>540</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;85;3;128;539;128;539;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>510</x>
+      <y>383</y>
+      <w>264</w>
+      <h>51</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;25;3;49;263;49;263;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>504</x>
+      <y>328</y>
+      <w>603</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;80;3;138;602;138;602;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>476</x>
+      <y>363</y>
+      <w>542</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;49;3;125;417;124;541;125;541;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>482</x>
+      <y>383</y>
+      <w>301</w>
+      <h>103</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;29;3;101;300;101;300;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>488</x>
+      <y>407</y>
+      <w>447</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;5;3;92;446;92;446;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>494</x>
+      <y>328</y>
+      <w>633</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;84;3;151;632;151;632;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>584</x>
+      <y>328</y>
+      <w>582</w>
+      <h>215</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;
+bg</panel_attributes>
+    <additional_attributes>3;101;3;212;581;212;581;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>603</x>
+      <y>397</y>
+      <w>272</w>
+      <h>139</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;32;3;137;271;137;271;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>624</x>
+      <y>383</y>
+      <w>163</w>
+      <h>148</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;46;3;146;162;146;162;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>643</x>
+      <y>366</y>
+      <w>345</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;63;3;158;344;158;344;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>260</x>
+      <y>362</y>
+      <w>317</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+&lt;accesses</panel_attributes>
+    <additional_attributes>316;3;316;7;3;7;3;23</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>299</x>
+      <y>362</y>
+      <w>292</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+&lt;accesses</panel_attributes>
+    <additional_attributes>291;3;291;9;3;9;3;23</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>601</x>
+      <y>362</y>
+      <w>170</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;3;3;9;155;9;155;31;169;31;169;24</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>664</x>
+      <y>328</y>
+      <w>518</w>
+      <h>222</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;83;3;220;517;220;517;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>669</x>
+      <y>357</y>
+      <w>153</w>
+      <h>71</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;54;3;69;152;69;152;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>674</x>
+      <y>407</y>
+      <w>254</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;4;3;14;253;14;253;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>678</x>
+      <y>383</y>
+      <w>112</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;28;3;34;111;34;111;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>423</x>
+      <y>397</y>
+      <w>440</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;20;3;178;439;178;439;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>435</x>
+      <y>328</y>
+      <w>761</w>
+      <h>237</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;89;3;235;760;235;760;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>698</x>
+      <y>383</y>
+      <w>95</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;25;3;206;94;206;94;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>694</x>
+      <y>397</y>
+      <w>159</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;11;3;185;158;185;158;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>690</x>
+      <y>328</y>
+      <w>523</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;80;3;278;522;278;522;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>382</x>
+      <y>328</y>
+      <w>850</w>
+      <h>353</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;89;3;351;849;351;849;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>390</x>
+      <y>407</y>
+      <w>560</w>
+      <h>219</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;10;3;217;559;217;559;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>398</x>
+      <y>363</y>
+      <w>628</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;54;3;286;627;286;627;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>631</x>
+      <y>311</y>
+      <w>618</w>
+      <h>47</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;39;3;46;27;46;27;3;617;3;617;17</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>710</x>
+      <y>328</y>
+      <w>439</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;85;3;96;438;96;438;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>714</x>
+      <y>407</y>
+      <w>208</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;6;3;12;207;12;207;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>718</x>
+      <y>381</y>
+      <w>49</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;32;3;34;44;34;44;3;48;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>354</x>
+      <y>303</y>
+      <w>911</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;99;3;4;910;4;910;25</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>359</x>
+      <y>405</y>
+      <w>603</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;
+bg=blue</panel_attributes>
+    <additional_attributes>3;3;3;108;602;108;602;5</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>361</x>
+      <y>371</y>
+      <w>406</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>6;31;6;4;405;4</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>743</x>
+      <y>375</y>
+      <w>24</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;29;7;29;7;3;23;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>743</x>
+      <y>357</y>
+      <w>72</w>
+      <h>51</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads/accesses&gt;</panel_attributes>
+    <additional_attributes>3;49;67;49;67;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>735</x>
+      <y>328</y>
+      <w>563</w>
+      <h>86</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;80;3;84;562;84;562;3</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>681</x>
+      <y>295</y>
+      <w>600</w>
+      <h>113</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+loads&gt;</panel_attributes>
+    <additional_attributes>3;112;5;112;5;4;599;4;599;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>235</x>
+      <y>364</y>
+      <w>87</w>
+      <h>59</h>
+    </coordinates>
+    <panel_attributes>Libraries
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>340</x>
+      <y>291</y>
+      <w>419</w>
+      <h>398</h>
+    </coordinates>
+    <panel_attributes>Controllers
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>763</x>
+      <y>291</y>
+      <w>275</w>
+      <h>398</h>
+    </coordinates>
+    <panel_attributes>Models
+bg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1041</x>
+      <y>291</y>
+      <w>269</w>
+      <h>398</h>
+    </coordinates>
+    <panel_attributes>Views
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

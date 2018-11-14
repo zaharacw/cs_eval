@@ -1,0 +1,280 @@
+@import 'bootstrap/bootstrap';
+@import 'bootstrap-table';
+
+@import 'variables';
+@import 'evaluation';
+@import 'navbar';
+
+body {
+    background: #f4f4f4;
+    font-family: @body-font;
+    font-size: 12pt;
+}
+
+h1, h2 {
+    font-family: @header-font;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+h1.about {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #C7C7C7;
+}
+
+h3, h4, h5 {
+    font-weight: 400;
+}
+
+.btn .fa {
+    margin-right: 3px;
+}
+
+.actions a {
+    padding: 2px 8px 2px 12px;
+    font-size: 14pt;
+}
+
+.button-help {
+    border: 1px solid rgba(0,0,0,0.4);
+    background: rgba(255,255,255,0.6);
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 1px 4px;
+    margin: 0 1px;
+    white-space: nowrap;
+}
+
+.dev-profile {
+    float: right;
+
+    a {
+        margin-left: 0;
+        padding: 6px;
+        color: #A8A8A8;
+
+        &:hover {
+            color: #8C8C8C;
+        }
+    }
+}
+
+#sidebar {
+    background: @sidebar-background;
+    border-radius: 8px;
+    padding: 16px;
+
+    h2 {
+        margin-top: 0;
+    }
+
+    ul {
+        padding-left: 24px;
+        list-style-type: square;
+    }
+}
+
+header {
+    background: @header-background;
+    padding: 20px;
+    text-align: center;
+
+    a, a:active, a:focus, a:visited {
+        text-decoration: none;
+        color: white;
+    }
+
+    .title {
+        color: white;
+        font-family: @header-font;
+        font-weight: 300;
+        margin-left: 40px;
+        vertical-align: -21pt;
+        display: inline-block;
+        text-shadow: 0 1px 0 black;
+
+        #eval-title {
+            font-size: 25pt;
+        }
+
+        #dept-subtitle {
+            font-size: 15pt;
+            color: @header-subtitle-color;
+            display: block;
+        }
+    }
+
+    #eagle {
+        display: inline-block;
+        max-width:70px;
+        max-height:70px;
+        margin-left: -60px;
+        width: auto;
+        height: auto;
+    }
+}
+
+.accent {
+    color: #B5B5B5;
+    font-size: 0.8em;
+    margin-right: 14px;
+
+    &.help {
+        color: inherit;
+    }
+}
+
+#uploadRequest {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.alert-link.account-link {
+    padding: 0 10px;
+}
+
+#course-selection {
+    margin-bottom: 20px;
+
+    .bootstrap-table {
+        margin-bottom: 10px;
+    }
+}
+
+.sectionQuestionBox {
+    margin-left: 12px;
+}
+
+.checkboxList {
+    max-height: 300px;
+    overflow: auto;
+
+    .list-group { margin-bottom: 10px; }
+    .list-group-item { padding: 0 14px; }
+}
+
+#table {
+    background:white;
+}
+
+#admin-help {
+    padding: 20px;
+
+    .panel-heading {
+        cursor:pointer;
+    }
+}
+
+.bootstrap-table .selected {
+    font-weight: bold;
+}
+
+.eval-scores {
+    div[class^="col"] {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+.eval-scores label {
+    display: inline-block;
+    padding: 15px 15px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.reduced .eval-scores label {
+    padding: 0 15px;
+}
+
+.eval-question {
+    border-bottom: 1px dashed #B5B5B5;
+    padding: 10px 0;
+}
+
+#evaluation-chart > div:last-of-type {
+    border-bottom: none;
+    margin-bottom: 6px;
+}
+
+#eval-info {
+    margin-top: 0;
+}
+
+#eval-listing {
+    margin-bottom: 20px;
+}
+
+#evaluation-chart {
+        
+    .num {
+        margin-right: 16px;
+        color: rgba(0,0,0,0.5);
+    }
+
+    .description {
+        display: block;
+        text-align: left;
+        padding-top: 14px;
+        padding-left: 30px;
+
+        &::before {
+            margin-left: -30px;
+            display: inline-block;
+            content: attr(data-num) + '.';
+            margin-right: 16px;
+            color: rgba(0,0,0,0.5);
+        }
+
+        &::after {
+            content: '...';
+            margin-left: 10px;
+            color: rgba(0,0,0,0.3);
+        }
+    }
+
+    .comment-box {
+        resize: vertical;
+    }
+}
+
+@media (max-width: @screen-sm-max) {
+    #evaluation-chart .description {
+        font-size: 14pt;
+        padding-top: 4px;
+    }
+
+    header {
+        background: @header-background url('../img/eagle_white_faded.png') center center / 200px 188px no-repeat;
+        
+        .title {
+            font-size: 18pt;
+            text-align: center;
+            margin-left: 0;
+            display: block;
+        }
+
+        #eagle {
+            display: none;
+        }
+    }
+
+    h1 {
+        font-size: 20pt;
+    }
+
+    .mobile-hidden {
+        display: none !important;
+    }
+    
+    .eval-scores {
+        min-height: 60px;
+    }
+
+    .eval-scores label::before {
+        content: attr(data-title);
+        display: block;
+    }
+}
