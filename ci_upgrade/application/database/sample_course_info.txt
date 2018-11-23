@@ -1,0 +1,18 @@
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","210","01","PROGRAMMING PRINCIPLES I","2013","10","Chris Frank Peters(P)",'','');
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","210","02","PROGRAMMING PRINCIPLES I","2013","10","Chris Frank Peters(P)",'','');
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","211","01","PROGRAMMING PRINCIPLES II","2013","10","Chris Frank Peters(P)",'','');
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","240","01","C AND UNIX PROGRAMMING","2013","10","Rober William Clark(P)",'','');
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","255","01","C PROGRAMMING FOR ENGINEERS","2013","10","Stuart Glen Steiner(P)",'','');
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","299","01","ST/INFORMATION WARFARE","2013","10","Carol S Taylor(P)",'','');
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","300","01","DATA STRUCTURES","2013","10","Carol S Taylor(P)",'','');
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","454","01","DESIGN PATTERNS","2013","10","Thomas Brace Capaul (P)",'','');
+INSERT INTO `course`(`c_id`, `subject`, `number`, `section`, `title`, `year`, `quarter`, `instructor`, `eval_start_date`, `eval_end_date`) 
+VALUES ('',"CSCD","495","04","INTERNSHIP","2013","10","Stuart Glen Steiner(P)",'','');

@@ -1,0 +1,8 @@
+# php c:\dev\apigen.phar generate
+
+source:
+	- application/models
+	- application/controllers
+	- application/core
+
+destination: application/api

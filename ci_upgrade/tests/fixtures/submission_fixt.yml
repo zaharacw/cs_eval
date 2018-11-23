@@ -1,0 +1,47 @@
+1:
+    s_id_hashed: 'a'
+    section_id: 9
+    submitted: 1
+    general_comment: ''
+2:
+    s_id_hashed: 'b'
+    section_id: 9
+    submitted: 1
+    general_comment: ''
+3:
+    s_id_hashed: 'c'
+    section_id: 9
+    submitted: 1
+    general_comment: ''
+4:
+    s_id_hashed: 'd'
+    section_id: 9
+    submitted: 0
+    general_comment: ''
+5:
+    s_id_hashed: 'e'
+    section_id: 9
+    submitted: 0
+    general_comment: ''
+6:
+    s_id_hashed: 'f'
+    section_id: 45
+    submitted: 1
+    general_comment: ''
+7:
+    s_id_hashed: 'g'
+    section_id: 45
+    submitted: 0
+    general_comment: ''
+10:
+    sub_id: 10
+    s_id_hashed: 'h'
+    section_id: 10
+    submitted: 0
+    general_comment: ''
+11:
+    sub_id: 11
+    s_id_hashed: 'i'
+    section_id: 11
+    submitted: 1
+    general_comment: ''
